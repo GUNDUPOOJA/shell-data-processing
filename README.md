@@ -54,14 +54,14 @@ tr ' ' '\12' < result.txt | sort | uniq -c | sort -nr > result.txt
 - Copy in Bash is not CTRL+C as in Windows, instead use CTRL+SHIFT+C.
 
 ## Bash preview:
-cat filename
-head -10 filename.fx
-tail -2 filename.fx
+- cat filename
+- head -10 filename.fx
+- tail -2 filename.fx
 
 ### PowerShell cat:
-Get-Content filename.fx
-gc one.txt -head 2
-gc one.txt -tail 2
+- Get-Content filename.fx
+- gc one.txt -head 2
+- gc one.txt -tail 2
 
 ## Resources 
 - https://www.markdownguide.org/cheat-sheet/
